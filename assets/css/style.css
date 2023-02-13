@@ -18,7 +18,7 @@ html:root{
     --light-color:#ffffff;
     --logo-color-1:#a2d39b;
     --logo-color-1-border:#d1e9cd;
-    --logo-color-2:#d1e9cd;
+    --logo-color-2:#61082b;
     --logo-color-3: #d5001f;
     --logo-color-4: #0093ce;
     --logo-color-5:#ff1c1c;
@@ -214,3 +214,53 @@ img {
 }
 
 /* #endregion banner */
+
+/* #region partners  */
+.debug #partners > div {
+    height: 30rem;
+    background-color: #a2d39b;
+    border: 1px solid black;
+}
+
+
+.debug #partners .company {
+    width: calc(100% / 2);
+    aspect-ratio: 1;
+    border: 1px solid black;
+}
+
+#partners > div {
+    width: calc(100% / 3);
+}
+
+#designit {
+    background-color: var(--logo-color-1);
+}
+
+#arizona-state-university{
+    background: var(--logo-color-2)
+}
+
+#university-of-florida{
+    background-color: var(--logo-color-4);
+}
+
+#topps{
+    background-color: var(--logo-color-3);
+}
+
+#world-bicycle-relief {
+    background-color: var(--logo-color-5);
+}
+
+#hearst {
+    background-color: var(--main-color);
+}
+
+#lonely-planet {
+    background-color: var(--logo-color-6);
+}
+
+#clear-channel {
+    background-color: var(--logo-color-7);
+}
