@@ -185,6 +185,7 @@ img {
 
 /* #endregion contacts */
 
+/* #region operations */
 .debug #operations .small-container {
     height: 20rem;
     background-color: yellow;
@@ -204,3 +205,12 @@ img {
 #operations {
     background-color: var(--light-color);
 }
+
+/* #endregion operations */
+
+/* #region banner */
+#banner{
+    background-color: var(--light-color);
+}
+
+/* #endregion banner */
