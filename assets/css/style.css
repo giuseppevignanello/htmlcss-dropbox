@@ -182,3 +182,25 @@ img {
 #contacts-text{
     width: 40%;
 }
+
+/* #endregion contacts */
+
+.debug #operations .small-container {
+    height: 20rem;
+    background-color: yellow;
+}
+
+.debug #operations .col-4 {
+    height: 8rem;
+    background-color: #0093ce;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+#operations {
+    background-color: var(--light-color);
+}
