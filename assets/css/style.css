@@ -29,6 +29,10 @@ html:root{
 ul {
     list-style: none;
 }
+
+img {
+    max-width: 100%;
+}
 /*#endregion general */
 
 /*#region utilities  */
@@ -152,3 +156,29 @@ ul {
 
 /* #endregion business */
 
+/* #region contacts  */
+
+.debug #contacts .small-container {
+    height: 12rem;
+    background-color: #a2d39b;
+}
+.debug #contacts-img {
+    margin-top: 2rem;
+    height: 8rem;
+    background-color: #b4d0e7;
+}
+
+.debug #contacts-text{
+    height: 8rem;
+    margin-top: 2rem;
+    background-color: #804241;
+}
+
+
+#contacts-img {
+    width: 60%;
+}
+
+#contacts-text{
+    width: 40%;
+}
