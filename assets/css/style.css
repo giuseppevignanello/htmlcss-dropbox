@@ -11,7 +11,7 @@
     --secondary-color: #0061ff;
     --tertiary-color: #804241;
     --dark-color: #000000; 
-    --light-color:#000000;
+    --light-color:#ffffff;
     --logo-color-1:#a2d39b;
     --logo-color-1-border:#d1e9cd;
     --logo-color-2:#d1e9cd;
@@ -22,6 +22,9 @@
     --logo-color-7:#ffd830; 
 }
 
+ul {
+    list-style: none;
+}
 /*#endregion general */
 
 /*#region utilities  */
@@ -32,4 +35,31 @@
 
 .space-between {
     justify-content: space-between;
+}
+
+/*#endregion utilities */
+
+/* #region header */
+
+.debug #app-header {
+    background-color: orange;
+}
+
+#app-header {
+    /* background-color: var(--light-color); */
+    height: 5rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+
+#logo-section, #start-section {
+    width: 50%;
+}
+
+#start-section {
+    justify-content: end;
 }
