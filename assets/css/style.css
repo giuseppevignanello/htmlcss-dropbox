@@ -364,7 +364,7 @@ img {
 /* #endregion contacts */
 
 /* #region operations */
-.debug #operations .small-container {
+/* .debug #operations .small-container {
     height: 20rem;
     background-color: yellow;
 }
@@ -374,7 +374,7 @@ img {
     background-color: #0093ce;
     border: 1px solid black;
     margin-bottom: 1rem;
-}
+} */
 
 .row {
     flex-wrap: wrap;
@@ -382,6 +382,21 @@ img {
 
 #operations {
     background-color: var(--light-color);
+}
+
+#operations h2 {
+    margin-bottom: 3rem;
+}
+
+
+
+#operations .bottom-col h4 {
+    line-height: 1.5rem;
+}
+
+#operations .bottom-col p {
+    font-size: 10px;
+    line-height: 1rem;
 }
 
 /* #endregion operations */
