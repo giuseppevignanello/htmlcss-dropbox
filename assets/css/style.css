@@ -215,7 +215,7 @@ img {
 
 /* #endregion banner */
 
-/* #region partners  */
+/* #region partners*/
 .debug #partners > div {
     height: 30rem;
     background-color: #a2d39b;
@@ -264,3 +264,30 @@ img {
 #clear-channel {
     background-color: var(--logo-color-7);
 }
+
+/*#endregion partners*/
+
+/* #region call-to-action */
+
+.debug #call-to-action{
+    height: 20rem;
+    padding-top: 2rem;
+}
+
+.debug #call-to-action .small-container {
+    height: 10rem;
+    background-color: #d500208d;
+}
+
+#call-to-action{
+    background-color: var(--main-color);
+}
+
+#call-to-action .h3 {
+    width: 60%;
+}
+
+#call-to-action .small-container {
+    align-items: center;
+}
+
