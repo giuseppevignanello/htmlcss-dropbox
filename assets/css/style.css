@@ -294,6 +294,8 @@ img {
 /* #endregion call-to-action */
 /* #region FAQ */
 
+
+
 .debug .question {
    
     background-color: pink;
@@ -302,3 +304,20 @@ img {
 #FAQ {
     background-color: var(--light-color);
 }
+
+/* #endregion FAQ */
+
+/* #region footer */
+
+.debug #top-footer ul {
+    background-color: #0061ff;
+}
+
+.debug #bottom-footer span {
+    background-color: #61082b;
+}
+
+#app-footer {
+    background-color: var(--dark-color);
+}
+
