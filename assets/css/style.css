@@ -1,0 +1,35 @@
+/* #region general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #b4d0e7;
+    --secondary-color: #0061ff;
+    --tertiary-color: #804241;
+    --dark-color: #000000; 
+    --light-color:#000000;
+    --logo-color-1:#a2d39b;
+    --logo-color-1-border:#d1e9cd;
+    --logo-color-2:#d1e9cd;
+    --logo-color-3: #d5001f;
+    --logo-color-4: #0093ce;
+    --logo-color-5:#ff1c1c;
+    --logo-color-6:#0d2481;
+    --logo-color-7:#ffd830; 
+}
+
+/*#endregion general */
+
+/*#region utilities  */
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
