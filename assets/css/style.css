@@ -291,3 +291,14 @@ img {
     align-items: center;
 }
 
+/* #endregion call-to-action */
+/* #region FAQ */
+
+.debug .question {
+   
+    background-color: pink;
+}
+
+#FAQ {
+    background-color: var(--light-color);
+}
