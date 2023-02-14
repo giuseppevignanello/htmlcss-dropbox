@@ -224,6 +224,11 @@ img {
     font-size: 30px;
 }
 
+#jumbotron-text .arrow a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
 #bg-jumbotron-img {
     position: absolute;
     top: 0rem;
@@ -241,11 +246,15 @@ img {
     padding-top: 8rem;
 }
 
-#business .business-checkbox{
+#business h2{
+    padding-top: 10rem;
+}
+
+#business #business-checkbox{
     margin-top: 2rem;
 }
 
-#business .business-checkbox span {
+#business #business-checkbox span {
     margin-right: 2rem;
 }
 
