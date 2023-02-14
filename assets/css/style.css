@@ -188,23 +188,27 @@ img {
     padding-top: 3rem;
 }
 
+#jumbotron-content {
+    
+}
+
 #jumbotron h1 {
     font-size:  4rem;
     line-height: 5rem;
     padding-bottom: 2rem;
 }
 
-
 #jumbotron-text {
     width: 30%;
-    padding-bottom: 1rem
+    padding-bottom: 1rem;
 }
 
 #jumbotron-img {
     width: 70%;
-    position: relative;
     margin-left: 3rem;
+    margin-bottom: -10rem;
 }
+
 
 #jumbotron-text p {
     font-size: 14px;
