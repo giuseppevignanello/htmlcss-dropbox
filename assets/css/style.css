@@ -581,6 +581,7 @@ img {
 
 #app-footer {
     background-color: var(--dark-color);
+    padding-bottom: 3rem;
 }
 
 #top-footer {
@@ -605,5 +606,11 @@ img {
 
 #app-footer hr {
     width: 20%;
+    margin-bottom: 2rem;
 }
+
+#bottom-footer span {
+    color: grey;
+}
+
 /*#endregion footer */
