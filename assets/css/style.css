@@ -277,12 +277,18 @@ img {
 } 
 
 
-
 #business-plans .users{
     margin-top: 3rem;
     margin-bottom: 0.5rem;
 }
 
+#business-plans .col-4 .col-content span {
+    font-size: 14px;
+}
+
+#business-plans .col-4 .col-content .blue-button {
+    text-align: center;
+}
 #business-plans .col-4 .col-content hr {
     
     width: 20%;
