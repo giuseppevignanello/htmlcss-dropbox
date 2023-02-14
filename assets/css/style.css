@@ -157,7 +157,12 @@ img {
     align-items: center;
     z-index: 10000;
 }
-
+#app-header ul li:not(.blue-button){
+    padding: 1.5rem 0.5rem;
+}
+#app-header ul li:hover {
+    background-color: rgba(211, 211, 211, 0.495);
+} 
 #app-header a {
     text-decoration: none;
     color: var(--dark-color);
