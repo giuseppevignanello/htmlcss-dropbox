@@ -571,16 +571,39 @@ img {
 
 /* #region footer */
 
-.debug #top-footer ul {
+/* .debug #top-footer ul {
     background-color: #0061ff;
-}
+} */
 
-.debug #bottom-footer span {
+/* .debug #bottom-footer span {
     background-color: #61082b;
-}
+} */
 
 #app-footer {
     background-color: var(--dark-color);
 }
 
+#top-footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#top-footer ul:not(:last-child) {
+    margin-right: 2rem;
+}
+
+#top-footer li h2 {
+    padding-bottom: 2rem;
+}
+#app-footer li {
+    line-height: 2rem;
+}
+#app-footer li a{
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+#app-footer hr {
+    width: 20%;
+}
 /*#endregion footer */
