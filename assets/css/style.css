@@ -450,6 +450,8 @@ img {
     margin-bottom: 2rem
 }
 
+
+/*#region onclick effect */
 #FAQ .fa-angle-up {
     display: none;
 }
@@ -508,6 +510,7 @@ img {
 
 }
 
+/* #endregion onclick effect */
 
 
 
@@ -543,7 +546,6 @@ img {
 
 #app-footer hr {
     width: 20%;
-    margin-bottom: 2rem;
 }
 
 #bottom-footer span {
