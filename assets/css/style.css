@@ -335,17 +335,6 @@ img {
 /* #endregion contacts */
 
 /* #region operations */
-/* .debug #operations .small-container {
-    height: 20rem;
-    background-color: yellow;
-}
-
-.debug #operations .col-4 {
-    height: 8rem;
-    background-color: #0093ce;
-    border: 1px solid black;
-    margin-bottom: 1rem;
-} */
 
 .row {
     flex-wrap: wrap;
@@ -502,8 +491,28 @@ img {
     font-size: 25px;
 }
 
-#FAQ h2, #FAQ hr, #FAQ h4 {
+#FAQ h2, #FAQ hr, #FAQ h4,.question {
     margin-bottom: 2rem
+}
+.question .fa-angle-up {
+    display: none;
+}
+
+.question p{
+    display: none;
+}
+
+.question:active p {
+    display: block;
+
+}
+
+.question:active .fa-angle-up {
+    display: inline;
+}
+
+.question:active .fa-angle-down {
+    display: none;
 }
 
 /* #endregion FAQ */
