@@ -494,26 +494,67 @@ img {
 #FAQ h2, #FAQ hr, #FAQ h4,.question {
     margin-bottom: 2rem
 }
-.question .fa-angle-up {
+
+#FAQ .fa-angle-up {
+    display: none;
+}
+#FAQ p{
+    margin-bottom: 1rem;
+    display: none;
+}
+#question-one{
+    appearance: none;
+}
+
+#question-one:checked + label .fa-angle-up {
+    display: inline;
+}
+
+#question-one:checked + label .fa-angle-down {
     display: none;
 }
 
-.question p{
-    display: none;
-}
-
-.question:active p {
+#question-one:checked + label p {
     display: block;
 
 }
 
-.question:active .fa-angle-up {
+#question-two{
+    appearance: none;
+}
+
+#question-two:checked + label .fa-angle-up {
     display: inline;
 }
 
-.question:active .fa-angle-down {
+#question-two:checked + label .fa-angle-down {
     display: none;
 }
+
+#question-two:checked + label p {
+    display: block;
+
+}
+
+#question-three{
+    appearance: none;
+}
+
+#question-three:checked + label .fa-angle-up {
+    display: inline;
+}
+
+#question-three:checked + label .fa-angle-down {
+    display: none;
+}
+
+#question-three:checked + label p {
+    display: block;
+
+}
+
+
+
 
 /* #endregion FAQ */
 
