@@ -100,7 +100,9 @@ img {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-
+.mb-1 {
+    margin-bottom: 1rem;
+}
 .mb-2 {
     margin-bottom: 2rem;
 }
@@ -291,15 +293,6 @@ img {
 
 #contacts-text {
     margin-left: 2rem;
-}
-
-#contacts-text h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-#contacts p {
-    margin-bottom: 1rem;
 }
 /* #endregion contacts */
 
