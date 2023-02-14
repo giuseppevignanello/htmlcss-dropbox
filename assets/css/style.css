@@ -104,7 +104,14 @@ img {
 .mb-2 {
     margin-bottom: 2rem;
 }
+.mt-2{
+    margin-top: 2rem;
+}
 
+.mx-1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -219,23 +226,14 @@ img {
 
 #business {
     background-color: var(--light-color);
-    padding-top: 8rem;
-}
-
-#business h2{
     padding-top: 10rem;
-}
-
-#business #business-checkbox{
-    margin-top: 2rem;
 }
 
 #business #business-checkbox span {
     margin-right: 2rem;
 }
 
-#business-plans .col-4 {
-    margin-top: 2rem;
+#business-plans .col-4, #business-plans .col-12 {
     border: 1px solid grey;
    
 }
@@ -250,11 +248,6 @@ img {
     padding: 0.5rem 0;
     border-bottom: 1px solid grey;
 }
-
-#business-plans .col-4 .col-content{
-    margin: 1rem 1rem
-} 
-
 
 #business-plans .users{
     margin-top: 3rem;
@@ -276,15 +269,6 @@ img {
 
 #business-plans .col-content .fa-check{
     color: var(--secondary-color);
-}
-
-#business-plans .col-12 {
-    margin-top: 2rem;
-    border: 1px solid grey;
-}
-
-#business-plans .col-12 h5 {
-    margin-bottom: 2rem;
 }
 
 #business-plans .col-12 .col-content {
