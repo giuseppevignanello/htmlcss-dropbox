@@ -101,6 +101,10 @@ img {
     margin-bottom: 5rem;
 }
 
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -143,11 +147,7 @@ img {
 
 #app-header a {
     text-decoration: none;
-    
-}
-
-#app-header a {
-    color: black;
+    color: var(--dark-color);
 }
 
 #logo-section, #start-section {
@@ -166,15 +166,6 @@ img {
     width: 100%;
     margin-right: 1rem;
 }
-
-#logo-section li{
-    font-size: 12px;
-}
-
-#start-section li {
-    font-size: 12px;
-}
-
 
 /* #endregion header */
 
@@ -203,17 +194,8 @@ img {
     margin-bottom: -10rem;
 }
 
-
-#jumbotron-text p {
-    margin-bottom: 2rem;
-}
-
 #jumbotron-text span{
     display: block;
-}
-
-#jumbotron-text .blue-button {
-    margin-bottom: 2rem;
 }
 
 #jumbotron-text #delete {
@@ -227,12 +209,6 @@ img {
 #jumbotron-text .arrow a {
     text-decoration: none;
     color: var(--dark-color);
-}
-
-#bg-jumbotron-img {
-    position: absolute;
-    top: 0rem;
-    right: 0;
 }
 
 
