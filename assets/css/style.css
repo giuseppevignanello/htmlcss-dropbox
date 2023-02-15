@@ -211,13 +211,14 @@ img {
 
 #jumbotron{
     background-color: var(--main-color);
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 #jumbotron h1 {
-    font-size:  4rem;
-    line-height: 5rem;
+    font-size:  5rem;
+    line-height: 6rem;
     padding-bottom: 2rem;
+    font-weight: 900;
 }
 
 #jumbotron-text {
