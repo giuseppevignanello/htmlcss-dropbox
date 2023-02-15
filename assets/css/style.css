@@ -403,6 +403,11 @@ img {
     justify-content: center;
     align-items: center;
     aspect-ratio: 1;
+    transition: scale 1s;
+}
+
+#partners .company:hover{
+    scale: 1.2;
 }
 
 #partners .company img {
