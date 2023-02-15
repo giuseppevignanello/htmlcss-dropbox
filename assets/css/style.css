@@ -44,6 +44,10 @@ img {
 .space-between {
     justify-content: space-between;
 }
+.huge-container {
+    max-width: 1800px;
+    margin: auto;
+}
 
 .large-container {
     width:70%;
@@ -153,8 +157,6 @@ img {
     align-items: center;
     z-index: 10000;
     font-size: 12px;
-    max-width: 1800px;
-    margin: auto;
 }
 
 #logo-section, #start-section {
@@ -345,7 +347,6 @@ img {
 /* #endregion banner */
 
 /* #region partners*/
-
 #partners > div {
     width: calc(100% / 3);
 }
@@ -428,15 +429,15 @@ img {
 
 /* #region call-to-action */
 
+#call-to-action{
+    background-color: var(--main-color);
+}
 
 #call-to-action .small-container {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-#call-to-action{
-    background-color: var(--main-color);
-}
 
 #call-to-action h2 {
     width: 60%;
