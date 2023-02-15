@@ -77,11 +77,13 @@ img {
 .main-button {
     color: var(--light-color);
     background-color: var(--secondary-color);
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1rem;
+    
 }
 
 .main-button:hover{
     background-color: var(--opacity-secondary-color);
+    cursor: pointer;
 }
 
 .light-button {
@@ -91,6 +93,9 @@ img {
     padding: 0.5rem 1rem
 }
 
+.light-button:hover {
+    cursor: pointer;
+}
 
 .col-4 {
     width: calc((100% - 6rem) /12 * 4);
@@ -204,7 +209,8 @@ img {
     padding: 1rem 0.5rem
 }
 #app-header ul li:hover {
-    background-color: rgb(204, 204, 204)
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
 } 
 #app-header a {
     text-decoration: none;
@@ -234,6 +240,7 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 6rem;
+    cursor: pointer;
    
 }
 
@@ -288,6 +295,7 @@ img {
 #jumbotron-text .arrow a {
     text-decoration: none;
     color: var(--dark-color);
+    cursor: pointer;
 }
 
 
@@ -337,12 +345,14 @@ img {
 
 #business-plans .col-4:hover {
     border: 1px solid black;
-    box-shadow: 0 0 10px rgb(0,0,0)
+    box-shadow: 0 0 10px rgb(0,0,0);
+    cursor: pointer;
 }
 
 #business-plans .col-12:hover{
     border: 1px solid black;
-    box-shadow: 0 0 10px rgb(0,0,0)
+    box-shadow: 0 0 10px rgb(0,0,0);
+    cursor: pointer;
 }
 
 #business-plans .folder, #business-plans .share-node {
