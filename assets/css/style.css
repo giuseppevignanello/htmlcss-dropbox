@@ -662,16 +662,18 @@ img {
     padding-bottom: 5rem;
 }
 
-#top-footer ul:not(:last-child) {
+#top-footer ul{
     margin-right: 2rem;
+}
+
+#app-footer li {
+    line-height: 2rem;
 }
 
 #top-footer li h2 {
     padding-bottom: 2rem;
 }
-#app-footer li {
-    line-height: 2rem;
-}
+
 #app-footer li a{
     text-decoration: none;
     color: var(--light-color);
@@ -682,7 +684,7 @@ img {
 }
 
 #bottom-footer span {
-    color: grey;
+    color: grey
 }
 
 /*#endregion footer */
