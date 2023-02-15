@@ -552,6 +552,7 @@ img {
 #call-to-action .small-container {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    align-items: center ;
 }
 
 
@@ -561,11 +562,6 @@ img {
     padding-right: 5rem;
     color: var(--tertiary-color);
 }
-
-#call-to-action .small-container {
-    align-items: center ;
-}
-
 /* #endregion call-to-action */
 /* #region FAQ */
 
