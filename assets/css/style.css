@@ -70,14 +70,10 @@ img {
     max-width: 1200px;
 }
 
-.items-centred {
-    align-items: center;
-}
-
 .main-button {
     color: var(--light-color);
     background-color: var(--secondary-color);
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     
 }
 
@@ -170,18 +166,18 @@ img {
 #logo-section {
     margin-left: 1rem;
 }
-
+#logo-section .navbar {
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+}
 #logo {
     width: 30%;
+    padding: 1rem;
 }
 
 #start-section {
     justify-content: end;
-}
-
-#logo-section .navbar {
-    flex-grow: 1;
-    justify-content: space-around;
 }
 
 #start-section ul {
@@ -190,8 +186,9 @@ img {
 }
 
 
-#app-header ul .navbar-item{
-    padding: 1rem 0.5rem
+#app-header .navbar-item{
+    padding: 1rem 0.5rem;
+    position: relative;
 }
 #app-header ul li:hover {
     background-color: rgb(204, 204, 204);
@@ -200,10 +197,6 @@ img {
 #app-header a {
     text-decoration: none;
     color: var(--dark-color);
-}
-
-#app-header .navbar-item {
-    position: relative;
 }
 
 #app-header .drop-down-menu {
