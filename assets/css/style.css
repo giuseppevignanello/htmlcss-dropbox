@@ -25,6 +25,13 @@ html:root{
     --logo-color-5:#ff1c1c;
     --logo-color-6:#0d2481;
     --logo-color-7:#ffd830; 
+    --logo-color-2-border:#e09ab6;
+    --logo-color-3-border: #f7a4b0;
+    --logo-color-4-border: #a1dcf4;
+    --logo-color-5-border:#f7a4b0;
+    --logo-color-6-border:#516ddc;
+    --logo-color-7-border:#efe9cd; 
+    --main-color-lighter: #dce5ec;
 }
 
 ul {
@@ -487,31 +494,38 @@ img {
 }
 
 #arizona-state-university{
-    background: var(--logo-color-2)
+    background: var(--logo-color-2);
+    border: 1rem solid var(--logo-color-2-border)
 }
 
 #university-of-florida{
     background-color: var(--logo-color-4);
+    border: 1rem solid var(--logo-color-4-border)
 }
 
 #topps{
     background-color: var(--logo-color-3);
+    border: 1rem solid var(--logo-color-3-border)
 }
 
 #world-bicycle-relief {
     background-color: var(--logo-color-5);
+    border: 1rem solid var(--logo-color-5-border)
 }
 
 #hearst {
     background-color: var(--main-color);
+    border: 1rem solid var(--main-color-lighter)
 }
 
 #lonely-planet {
     background-color: var(--logo-color-6);
+    border: 1rem solid var(--logo-color-6-border)
 }
 
 #clear-channel {
     background-color: var(--logo-color-7);
+    border: 1rem solid var(--logo-color-7-border)
 }
 
 /*#endregion partners*/
