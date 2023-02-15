@@ -409,12 +409,13 @@ img {
 
 /* #region operations */
 
-.row {
-    flex-wrap: wrap;
-}
 
 #operations {
     background-color: var(--light-color);
+}
+
+.row {
+    flex-wrap: wrap;
 }
 
 #operations img {
