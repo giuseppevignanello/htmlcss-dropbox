@@ -34,6 +34,7 @@ ul {
 img {
     max-width: 100%;
 }
+
 /*#endregion general */
 
 /*#region utilities  */
@@ -265,8 +266,9 @@ img {
 #jumbotron-img {
     width: 70%;
     margin-left: 3rem;
-    margin-bottom: -10rem
+    margin-bottom: -10rem;
 }
+
 
 #jumbotron-text span{
     display: block;
@@ -322,6 +324,19 @@ img {
     gap: 2rem;
 } 
 
+#business-plans .col-4 #business-plans .col-12 {
+    transition: 2s line;
+}
+
+#business-plans .col-4:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(0,0,0)
+}
+
+#business-plans .col-12:hover{
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(0,0,0)
+}
 
 #business-plans .folder, #business-plans .share-node {
     gap: 0.5rem;
@@ -357,15 +372,20 @@ img {
 
 #contacts-img {
     width: 60%;
+    transition: 0.5s linear;
+}
+
+#contacts-img:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(0,0,0)
 }
 
 #contacts-text{
     width: 40%;
-}
-
-#contacts-text {
     margin-left: 2rem;
 }
+
+
 /* #endregion contacts */
 
 /* #region operations */
@@ -376,6 +396,15 @@ img {
 
 #operations {
     background-color: var(--light-color);
+}
+
+#operations img {
+    transition: 0.5s linear;
+}
+
+#operations img:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(0,0,0)
 }
 
 #operations .bottom-col h4 {
@@ -439,11 +468,12 @@ img {
     justify-content: center;
     align-items: center;
     aspect-ratio: 1;
-    transition: scale 1s;
+    transition: 0.5s linear;
 }
 
 #partners .company:hover{
-    scale: 1.2;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(0,0,0)
 }
 
 #partners .company img {
