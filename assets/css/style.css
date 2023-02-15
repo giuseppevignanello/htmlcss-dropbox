@@ -65,13 +65,13 @@ img {
     align-items: center;
 }
 
-.blue-button {
+.main-button {
     color: var(--light-color);
     background-color: var(--secondary-color);
     padding: 0.5rem 1rem
 }
 
-.white-button {
+.light-button {
     border: 1px solid grey;
     color: grey;
     background-color: var(--light-color);
@@ -143,7 +143,7 @@ img {
 }
 
 .billing:checked {
-    border: 5px solid blue;
+    border: 5px solid var(--secondary-color);
 }
 /*#endregion utilities */
 
@@ -186,7 +186,7 @@ img {
 }
 
 
-#app-header ul li:not(.blue-button){
+#app-header ul li:not(.main-button){
     padding: 1rem 0
 }
 #app-header ul li:hover {
@@ -278,7 +278,7 @@ img {
     font-size: 14px;
 }
 
-#business-plans .col-4 .col-content .blue-button {
+#business-plans .col-4 .col-content .main-button {
     text-align: center;
 }
 #business-plans .col-4 .col-content hr {
