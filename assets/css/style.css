@@ -48,11 +48,13 @@ img {
 .large-container {
     width:70%;
     margin: auto;
+    max-width: 1200px;
 }
 
 .small-container {
     width: 50%;
     margin: auto;
+    max-width: 1200px;
 }
 
 .items-centred {
@@ -151,6 +153,8 @@ img {
     align-items: center;
     z-index: 10000;
     font-size: 12px;
+    max-width: 1800px;
+    margin: auto;
 }
 
 #logo-section, #start-section {
