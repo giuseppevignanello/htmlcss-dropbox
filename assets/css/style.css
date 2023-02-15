@@ -259,12 +259,13 @@ img {
 #jumbotron-text {
     width: 30%;
     padding-bottom: 1rem;
+    font-size: 12px;
 }
 
 #jumbotron-img {
     width: 70%;
     margin-left: 3rem;
-    margin-bottom: -10rem;
+    margin-bottom: -10rem
 }
 
 #jumbotron-text span{
