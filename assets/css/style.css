@@ -142,30 +142,15 @@ img {
 /*#endregion utilities */
 
 /* #region header */
-/* 
-.debug #app-header {
-    background-color: orange;
-} */
-
 #app-header {
     background-color: var(--light-color);
-    height: 5rem;
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
     align-items: center;
     z-index: 10000;
-}
-#app-header ul li:not(.blue-button){
-    padding: 1.5rem 0.5rem;
-}
-#app-header ul li:hover {
-    background-color: rgba(211, 211, 211, 0.495);
-} 
-#app-header a {
-    text-decoration: none;
-    color: var(--dark-color);
+    font-size: 12px;
 }
 
 #logo-section, #start-section {
@@ -176,14 +161,36 @@ img {
     margin-left: 1rem;
 }
 
+#logo {
+    width: 30%;
+}
+
 #start-section {
     justify-content: end;
+}
+
+#logo-section ul {
+    flex-grow: 1;
+    justify-content: space-around;
 }
 
 #start-section ul {
     width: 100%;
     margin-right: 1rem;
 }
+
+
+#app-header ul li:not(.blue-button){
+    padding: 1rem 0
+}
+#app-header ul li:hover {
+    background-color: rgba(211, 211, 211, 0.495);
+} 
+#app-header a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
 
 /* #endregion header */
 
