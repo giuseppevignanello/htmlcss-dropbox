@@ -13,6 +13,7 @@ body {
 html:root{
     --main-color: #b4d0e7;
     --secondary-color: #0061ff;
+    --opacity-secondary-color:#0062ff48;
     --tertiary-color: #804241;
     --dark-color: #000000; 
     --light-color:#ffffff;
@@ -69,6 +70,10 @@ img {
     color: var(--light-color);
     background-color: var(--secondary-color);
     padding: 0.5rem 1rem
+}
+
+.main-button:hover{
+    background-color: var(--opacity-secondary-color);
 }
 
 .light-button {
@@ -190,7 +195,7 @@ img {
     padding: 1rem 0
 }
 #app-header ul li:hover {
-    background-color: rgba(211, 211, 211, 0.495);
+    background-color: rgba(211, 211, 211, 0.273);
 } 
 #app-header a {
     text-decoration: none;
