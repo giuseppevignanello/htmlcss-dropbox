@@ -257,13 +257,15 @@ img {
 #jumbotron-text {
     width: 30%;
     padding-bottom: 1rem;
-    font-size: 12px;
+    
 }
-
-
 
 #jumbotron-text span{
     display: block;
+}
+
+#jumbotron-text .main-button{
+    text-align: center;
 }
 
 #jumbotron-text .arrow{
