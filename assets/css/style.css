@@ -369,18 +369,18 @@ img {
     color: var(--secondary-color);
 }
 #business-plans .col-4 #business-plans .col-12 {
-    transition: 2s line;
+    transition: 2s inline;
 }
 
 #business-plans .col-4:hover {
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgb(0,0,0);
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
     cursor: pointer;
 }
 
 #business-plans .col-12:hover{
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgb(0,0,0);
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
     cursor: pointer;
 }
 
@@ -397,8 +397,9 @@ img {
 }
 
 #contacts-img:hover {
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgb(0,0,0)
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
 }
 
 #contacts-text{
@@ -425,8 +426,9 @@ img {
 }
 
 #operations img:hover {
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgb(0,0,0)
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
+    cursor: pointer;
 }
 
 #operations .bottom-col h4 {
